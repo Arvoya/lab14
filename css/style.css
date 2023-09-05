@@ -1,1 +1,81 @@
 /* TODO: Make it awesome */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* 
+Beige - FAF1E4
+Light - CEDEBD
+Medium - 9EB384
+Dark - 435334
+*/
+
+* {
+    background-color: #faf1e4;
+    align-self: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: xx-large;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    padding: 15px;
+    color: #FAF1E4;
+    background-color: #435334;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 320ms;
+}
+
+a:hover {
+    background-color: #CEDEBD;
+    color: #435334;
+    border-radius: 15px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    background-color: #CEDEBD;
+    gap: 30px;
+    padding: 30px;
+}
+
+#chart-section {
+    display: flex;
+    padding: 30px;
+}
+
+canvas {
+    height: 500px;
+}
+
+
+
+img {
+    width: 300px;
+    max-height: 300px;
+}
+
